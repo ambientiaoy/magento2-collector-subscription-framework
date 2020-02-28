@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Customweb\CollectorCw\Model\Authorization\Method\Server">
+        <plugin name="Ambientia_CreateSubscriptionFromQuotePlugin"
+                type="Ambientia\CollectorSubscriptionFramework\Plugin\Model\Authorization\Method\Server" />
+    </type>
+</config>

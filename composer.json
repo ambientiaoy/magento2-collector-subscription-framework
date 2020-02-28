@@ -1,0 +1,20 @@
+{
+    "name": "ambientia/collector-subscription-framework",
+    "description": "This module adds a framework for adapting any subscription module to be used Customweb_CollectorCw module's CollectorDirect payment method.",
+    "require": {
+        "magento/framework": "101.0.*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Ambientia\\CollectorSubscriptionFramework\\": ""
+        }
+    }
+}
